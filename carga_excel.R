@@ -3,7 +3,7 @@
 hoja <- "2.1"
 
 # Es necesario indicar la ruta y nombre del archivo.
-ruta <- "~/II_Marco_Regulatorio_2016_est_nvo_pint.xlsx"
+ruta <- "~/II_Marco_Regulatorio_2016_est.xlsx"
 
 A <- openxlsx::read.xlsx(ruta, hoja, colNames = F, skipEmptyRows = F)
 
